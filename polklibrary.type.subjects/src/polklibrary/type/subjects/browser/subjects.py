@@ -11,7 +11,10 @@ class SubjectsView(BrowserView):
         return self.template()
         
     def get_disciplines(self):
-        return json.dumps(self.context.disciplines)
+        result = {}
+        for i in self.context.disciplines:
+            result[i] = i
+        return json.dumps(result)
 
     @property
     def portal(self):

@@ -19,6 +19,10 @@
 
 	<metal:content fill-slot="content-core">
         
+        <script>
+            var SubjectDisciplines = ${view/get_disciplines};
+        </script>
+        
         <div id="subject-view" class="column">
             <div class="col-100" tal:content="structure context/body/output">
                 

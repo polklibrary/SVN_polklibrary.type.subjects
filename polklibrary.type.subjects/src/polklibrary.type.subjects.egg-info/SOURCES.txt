@@ -36,6 +36,7 @@ src/polklibrary/type/subjects/models/subject.py
 src/polklibrary/type/subjects/profiles/default/browserlayer.xml
 src/polklibrary/type/subjects/profiles/default/metadata.xml
 src/polklibrary/type/subjects/profiles/default/polklibrarytypesubjects_default.txt
+src/polklibrary/type/subjects/profiles/default/registry.xml
 src/polklibrary/type/subjects/profiles/default/types.xml
 src/polklibrary/type/subjects/profiles/default/types/polklibrary.type.subjects.models.subject.xml
 src/polklibrary/type/subjects/profiles/uninstall/browserlayer.xml

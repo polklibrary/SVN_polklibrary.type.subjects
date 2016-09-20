@@ -24,7 +24,7 @@
         </script>
         
         <div id="subject-view" class="column">
-            <div class="col-100" tal:content="structure context/body/output">
+            <div class="col-100" tal:content="structure context/body/output|nothing">
                 
             </div>
         </div>

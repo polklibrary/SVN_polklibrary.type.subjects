@@ -58,7 +58,6 @@ class ISubject(model.Schema):
             description=u"",
             required=False,
             default=False,
-            missing_value=False,
         )
         
         

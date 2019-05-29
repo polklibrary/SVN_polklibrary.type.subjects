@@ -52,6 +52,15 @@ class ISubject(model.Schema):
             value_type=schema.Choice(source=discipline_list),
         )
         
+                
+    exclude_from_nav = schema.Bool(
+            title=u"Exclude from navigation",
+            description=u"",
+            required=False,
+            default=False,
+            missing_value=False,
+        )
+        
         
 @indexer(ISubject)
 def make_searchable(object, **kwargs):
